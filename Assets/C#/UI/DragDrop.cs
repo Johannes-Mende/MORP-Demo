@@ -45,5 +45,5 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         throw new System.NotImplementedException();
     }
 
-    //https://www.youtube.com/watch?v=BGr-7GZJNXg 8:16
+    //https://www.youtube.com/watch?v=BGr-7GZJNXg
 }
