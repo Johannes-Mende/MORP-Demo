@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: b6bda72dc304da44787761f657462b7f
+guid: d03e8773194f957479c8490fa942897e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6780163795253843707
-    second: Orb_0
+      213: 2118452310051221708
+    second: Orb 2_0
   - first:
-      213: -4486065727169466305
-    second: Orb_1
+      213: 3050182039547203951
+    second: Orb 2_1
   - first:
-      213: 6521724798416525601
-    second: Orb_2
+      213: -5751415032614013256
+    second: Orb 2_2
+  - first:
+      213: -2415286050053798364
+    second: Orb 2_3
+  - first:
+      213: -2949214639066531048
+    second: Orb 2_4
+  - first:
+      213: -4004519377359014445
+    second: Orb 2_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -100,7 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Orb_0
+      name: Orb 2_0
       rect:
         serializedVersion: 2
         x: 122
@@ -114,14 +123,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf6d1178c0bf71e50800000000000000
-      internalID: 6780163795253843707
+      spriteID: cc07536e621466d10800000000000000
+      internalID: 2118452310051221708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orb_1
+      name: Orb 2_1
       rect:
         serializedVersion: 2
         x: 503
@@ -135,14 +144,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3072054dfa4eb1c0800000000000000
-      internalID: -4486065727169466305
+      spriteID: f61dc77876c645a20800000000000000
+      internalID: 3050182039547203951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orb_2
+      name: Orb 2_2
       rect:
         serializedVersion: 2
         x: 933
@@ -156,8 +165,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 129197c8622d18a50800000000000000
-      internalID: 6521724798416525601
+      spriteID: 8b63339008ede20b0800000000000000
+      internalID: -5751415032614013256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb 2_3
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 2080
+        width: 283
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426469b522e2b7ed0800000000000000
+      internalID: -2415286050053798364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb 2_4
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 2080
+        width: 281
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bbe0059e84217d0800000000000000
+      internalID: -2949214639066531048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb 2_5
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1686
+        width: 283
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5f858d7d61d68c0800000000000000
+      internalID: -4004519377359014445
       vertices: []
       indices: 
       edges: []
@@ -165,7 +237,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b14bdd13202f5f84d9fa0ed518b0ff80
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 

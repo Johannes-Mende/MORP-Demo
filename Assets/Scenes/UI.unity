@@ -239,6 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &57727537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,6 +339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1167964603}
+  blue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,6 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &766186706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -580,6 +583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1167964603}
+  blue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,6 +717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &971039522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -801,6 +806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1052751866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1035,6 +1041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1299600759 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1485917074218153179, guid: 3cdc81cd47d39e04298e9fe1a4a3e422, type: 3}
@@ -1096,6 +1103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1167964603}
+  blue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1657238358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,6 +1154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1657238361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1275,6 +1284,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1485917074218153173, guid: 3cdc81cd47d39e04298e9fe1a4a3e422, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2949214639066531048, guid: d03e8773194f957479c8490fa942897e, type: 3}
+    - target: {fileID: 1485917074218153173, guid: 3cdc81cd47d39e04298e9fe1a4a3e422, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485917074218153173, guid: 3cdc81cd47d39e04298e9fe1a4a3e422, type: 3}
+      propertyPath: m_Color.b
+      value: 0.2522619
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485917074218153173, guid: 3cdc81cd47d39e04298e9fe1a4a3e422, type: 3}
+      propertyPath: m_Color.g
+      value: 0.16353682
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485917074218153173, guid: 3cdc81cd47d39e04298e9fe1a4a3e422, type: 3}
+      propertyPath: m_Color.r
+      value: 0.990566
+      objectReference: {fileID: 0}
     - target: {fileID: 1485917074218153179, guid: 3cdc81cd47d39e04298e9fe1a4a3e422, type: 3}
       propertyPath: m_Name
       value: Orb_Health
@@ -1376,6 +1405,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7853483795708142335, guid: 6388de15ac1529943b0487e2a528f6f9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2949214639066531048, guid: d03e8773194f957479c8490fa942897e, type: 3}
+    - target: {fileID: 7853483795708142335, guid: 6388de15ac1529943b0487e2a528f6f9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853483795708142335, guid: 6388de15ac1529943b0487e2a528f6f9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.88550174
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853483795708142335, guid: 6388de15ac1529943b0487e2a528f6f9, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6388de15ac1529943b0487e2a528f6f9, type: 3}
 --- !u!1001 &6413918162437333193
@@ -1472,6 +1517,22 @@ PrefabInstance:
     - target: {fileID: 3943137014918214895, guid: ced88c336baee584bb64c868854f6200, type: 3}
       propertyPath: m_Name
       value: Orb_Mana
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933591316492769003, guid: ced88c336baee584bb64c868854f6200, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2949214639066531048, guid: d03e8773194f957479c8490fa942897e, type: 3}
+    - target: {fileID: 4933591316492769003, guid: ced88c336baee584bb64c868854f6200, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8490566
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933591316492769003, guid: ced88c336baee584bb64c868854f6200, type: 3}
+      propertyPath: m_Color.g
+      value: 0.31930125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933591316492769003, guid: ced88c336baee584bb64c868854f6200, type: 3}
+      propertyPath: m_Color.r
+      value: 0.18823424
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ced88c336baee584bb64c868854f6200, type: 3}
