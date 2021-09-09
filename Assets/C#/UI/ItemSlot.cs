@@ -9,13 +9,12 @@ public class ItemSlot : MonoBehaviour, IDropHandler
     public Color color;
     public void OnDrop(PointerEventData eventData)
     {
-        Debug.Log("OnDrop"); //https://www.youtube.com/watch?v=BGr-7GZJNXg
+        Debug.Log("OnDrop");                                                //https://www.youtube.com/watch?v=BGr-7GZJNXg
         if (eventData.pointerDrag != null) {
             eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
         }
         GetComponent<Image>().raycastTarget = false;
         GetComponent<Image>().raycastTarget = true;
-        //Debug.Log( eventData.pointerCurrentRaycast.gameObject.name);
     }
 
 

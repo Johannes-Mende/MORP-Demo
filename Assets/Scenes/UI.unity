@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 57727537}
   - component: {fileID: 57727536}
   m_Layer: 5
-  m_Name: Image (3)
+  m_Name: Slot R2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blue: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &57727537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1167964603}
-  blue: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 766186706}
   - component: {fileID: 766186705}
   m_Layer: 5
-  m_Name: Image (4)
+  m_Name: Slot L3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -483,7 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blue: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &766186706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,7 +583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1167964603}
-  blue: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,7 +680,7 @@ GameObject:
   - component: {fileID: 971039522}
   - component: {fileID: 971039521}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Slot R1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -717,7 +717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blue: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &971039522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -769,7 +769,7 @@ GameObject:
   - component: {fileID: 1052751866}
   - component: {fileID: 1052751865}
   m_Layer: 5
-  m_Name: Image (5)
+  m_Name: Slot R3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -806,7 +806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blue: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1052751866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -966,7 +966,7 @@ GameObject:
   - component: {fileID: 1188155727}
   - component: {fileID: 1188155729}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Slot L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1041,7 +1041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blue: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1299600759 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1485917074218153179, guid: 3cdc81cd47d39e04298e9fe1a4a3e422, type: 3}
@@ -1103,7 +1103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1167964603}
-  blue: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1657238358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,7 +1117,7 @@ GameObject:
   - component: {fileID: 1657238361}
   - component: {fileID: 1657238360}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: Slot L2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1154,7 +1154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blue: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1657238361
 MonoBehaviour:
   m_ObjectHideFlags: 0
