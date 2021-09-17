@@ -17,8 +17,15 @@ public class PlayerController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-           RaycastHit hit; 
+           RaycastHit hit;
+
+           if (Physics.Raycast(ray, out hit, 100))
+           {
+              RemoveFocus(); 
+           }
         }
+
+
         if (Input.GetMouseButtonDown(1))
         {
            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
@@ -37,5 +44,10 @@ public class PlayerController : MonoBehaviour
     void SetFocus(Interactable newFocus)
     {
         Focus = newFocus;
+    }
+
+    void RemoveFocus()
+    {
+        Focus = null;
     }
 }
