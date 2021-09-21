@@ -339,6 +339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1167964603}
+  EC: {fileID: 1959677297}
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &705507993
 GameObject:
@@ -583,6 +584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1167964603}
+  EC: {fileID: 1959677297}
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &963194225
 GameObject:
@@ -1103,6 +1105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1167964603}
+  EC: {fileID: 1959677297}
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1657238358
 GameObject:
@@ -1222,16 +1225,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17360812fdef9244487fb529cee8d0d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  access: {fileID: 0}
   Equipables:
   - name: Health
     wert: 100
     objekt: {fileID: 1299600759}
+    slot: {fileID: 0}
   - name: Mana
     wert: 100
     objekt: {fileID: 852458923}
+    slot: {fileID: 0}
   - name: Stamina
     wert: 20
     objekt: {fileID: 374875890}
+    slot: {fileID: 0}
 --- !u!4 &1959677298
 Transform:
   m_ObjectHideFlags: 0

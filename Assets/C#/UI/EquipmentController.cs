@@ -17,6 +17,7 @@ public class EquipmentController : MonoBehaviour
     }
     
     public List<Equippable> Equipables = new List<Equippable>();
+    public List<ItemSlot> ItemSlots  = new List<ItemSlot>();
 
     void Awake()
     {
@@ -35,6 +36,11 @@ public class EquipmentController : MonoBehaviour
 
     public void onEquipped(GameObject Obj)
     {
-
+        print("bums"+ Obj.name);
+        
+        for (int i = 0; i < ItemSlots.Count; i++)
+        {
+            
+        }
     }
 }
