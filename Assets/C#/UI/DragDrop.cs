@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using System;
 
 public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IDropHandler
 {
     [SerializeField] private Canvas canvas;
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
+    EquipmentController EC;
 
     public Color color;
 
@@ -38,8 +40,10 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         if(eventData.pointerCurrentRaycast.gameObject != null)
         {
             Debug.Log(eventData.pointerCurrentRaycast.gameObject.name);
+            EC.access.onEquipped(eventData.pointerCurrentRaycast.gameObject);
             eventData.pointerCurrentRaycast.gameObject.GetComponent<ItemSlot>().color = GetComponent<Image>().color;
             eventData.pointerCurrentRaycast.gameObject.GetComponent<ItemSlot>().Getcolor();
+
 
         }
         canvasGroup.alpha = 1f;
