@@ -1239,6 +1239,13 @@ MonoBehaviour:
     wert: 20
     objekt: {fileID: 374875890}
     slot: {fileID: 0}
+  ItemSlots:
+  - {fileID: 1188155729}
+  - {fileID: 971039521}
+  - {fileID: 1657238360}
+  - {fileID: 57727536}
+  - {fileID: 766186705}
+  - {fileID: 1052751865}
 --- !u!4 &1959677298
 Transform:
   m_ObjectHideFlags: 0
