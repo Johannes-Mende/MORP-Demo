@@ -8,6 +8,7 @@ using System;
 public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IDropHandler
 {
     [SerializeField] private Canvas canvas;
+    public EquipmentController.Equippable oneEquip;
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
     public EquipmentController EC;
@@ -21,30 +22,28 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("OnBeginDrag");
+        //Debug.Log("OnBeginDrag");
         canvasGroup.alpha = .6f;
         canvasGroup.blocksRaycasts = false;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("OnDrag");
+        //Debug.Log("OnDrag");
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("OnEndDrag");
+        //Debug.Log("OnEndDrag");
         
         
         if(eventData.pointerCurrentRaycast.gameObject != null)
         {
-            Debug.Log(eventData.pointerCurrentRaycast.gameObject.name);
+            //Debug.Log(eventData.pointerCurrentRaycast.gameObject.name);
             EC.access.onEquipped(eventData.pointerCurrentRaycast.gameObject);
-            eventData.pointerCurrentRaycast.gameObject.GetComponent<ItemSlot>().color = GetComponent<Image>().color;
-            eventData.pointerCurrentRaycast.gameObject.GetComponent<ItemSlot>().Getcolor();
-
-
+            GetComponent<DragDrop>().oneEquip.slot = eventData.pointerCurrentRaycast.gameObject;
+            eventData.pointerCurrentRaycast.gameObject.GetComponent<ItemSlot>().oneEquip = gameObject.GetComponent<DragDrop>().oneEquip;
         }
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
@@ -52,7 +51,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("OnPointerDown");
+        //Debug.Log("OnPointerDown");
         
     }
 

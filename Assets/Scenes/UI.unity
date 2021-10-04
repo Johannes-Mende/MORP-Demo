@@ -239,7 +239,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0, g: 0, b: 0, a: 0}
+  oneEquip:
+    name: 
+    wert: 0
+    objekt: {fileID: 0}
+    slot: {fileID: 0}
 --- !u!114 &57727537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,6 +343,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1167964603}
+  oneEquip:
+    name: Stamina Orb
+    wert: 10
+    objekt: {fileID: 374875890}
+    slot: {fileID: 0}
   EC: {fileID: 1959677297}
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &705507993
@@ -484,7 +493,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0, g: 0, b: 0, a: 0}
+  oneEquip:
+    name: 
+    wert: 0
+    objekt: {fileID: 0}
+    slot: {fileID: 0}
 --- !u!114 &766186706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -584,6 +597,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1167964603}
+  oneEquip:
+    name: Mana Orb
+    wert: 100
+    objekt: {fileID: 852458923}
+    slot: {fileID: 0}
   EC: {fileID: 1959677297}
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &963194225
@@ -719,7 +737,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0, g: 0, b: 0, a: 0}
+  oneEquip:
+    name: 
+    wert: 0
+    objekt: {fileID: 0}
+    slot: {fileID: 0}
 --- !u!114 &971039522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -808,7 +830,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0, g: 0, b: 0, a: 0}
+  oneEquip:
+    name: 
+    wert: 0
+    objekt: {fileID: 0}
+    slot: {fileID: 0}
 --- !u!114 &1052751866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1043,7 +1069,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0, g: 0, b: 0, a: 0}
+  oneEquip:
+    name: 
+    wert: 0
+    objekt: {fileID: 0}
+    slot: {fileID: 1188155725}
 --- !u!1 &1299600759 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1485917074218153179, guid: 3cdc81cd47d39e04298e9fe1a4a3e422, type: 3}
@@ -1105,6 +1135,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1167964603}
+  oneEquip:
+    name: Health Orb
+    wert: 100
+    objekt: {fileID: 1299600759}
+    slot: {fileID: 0}
   EC: {fileID: 1959677297}
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1657238358
@@ -1157,7 +1192,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4135b9649f787f144a4fe19d02e176e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0, g: 0, b: 0, a: 0}
+  oneEquip:
+    name: 
+    wert: 0
+    objekt: {fileID: 0}
+    slot: {fileID: 0}
 --- !u!114 &1657238361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1226,19 +1265,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   access: {fileID: 0}
-  Equipables:
-  - name: Health
-    wert: 100
-    objekt: {fileID: 1299600759}
-    slot: {fileID: 0}
-  - name: Mana
-    wert: 100
-    objekt: {fileID: 852458923}
-    slot: {fileID: 0}
-  - name: Stamina
-    wert: 20
-    objekt: {fileID: 374875890}
-    slot: {fileID: 0}
   ItemSlots:
   - {fileID: 1188155729}
   - {fileID: 971039521}
