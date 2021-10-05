@@ -13,7 +13,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     private CanvasGroup canvasGroup;
     public EquipmentController EC;
 
-    public Color color;
+    //public Color color;
 
     private void Awake()
     {
