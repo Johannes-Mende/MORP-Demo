@@ -38,7 +38,7 @@ public class EquipmentController : MonoBehaviour
         
         for (int i = 0; i < ItemSlots.Count; i++)
         {
-            
+            ItemSlots[i] = default;
         }
     }
 }

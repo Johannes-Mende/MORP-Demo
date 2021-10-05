@@ -41,9 +41,10 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         if(eventData.pointerCurrentRaycast.gameObject != null)
         {
             //Debug.Log(eventData.pointerCurrentRaycast.gameObject.name);
-            EC.access.onEquipped(eventData.pointerCurrentRaycast.gameObject);
             GetComponent<DragDrop>().oneEquip.slot = eventData.pointerCurrentRaycast.gameObject;
             eventData.pointerCurrentRaycast.gameObject.GetComponent<ItemSlot>().oneEquip = gameObject.GetComponent<DragDrop>().oneEquip;
+            EC.access.onEquipped(eventData.pointerCurrentRaycast.gameObject);
+
         }
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
