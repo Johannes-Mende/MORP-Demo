@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class ItemSlot : MonoBehaviour, IDropHandler
 {
     public EquipmentController.Equippable oneEquip;
-    //public Color color;
     public void OnDrop(PointerEventData eventData)
     {
         //Debug.Log("OnDrop");                                                //https://www.youtube.com/watch?v=BGr-7GZJNXg
@@ -16,11 +15,5 @@ public class ItemSlot : MonoBehaviour, IDropHandler
         }
         GetComponent<Image>().raycastTarget = false;
         GetComponent<Image>().raycastTarget = true;
-    }
-
-    [System.Obsolete]
-    public void Getcolor()
-    {
-        //GetComponent<Image>().color = color;
     }
 }
