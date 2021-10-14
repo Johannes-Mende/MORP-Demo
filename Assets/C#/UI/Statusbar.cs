@@ -11,18 +11,15 @@ public class Statusbar : MonoBehaviour
     public Slider M_slider;
     public Slider S_slider;
 
-    public Statusbars Bars;
-[Serializable]
-    public struct Statusbars
-    {
-        public GameObject bar;
-        public Text wert;
-        public Text von;
-    }
+    public Text H_text;
+    public Text M_text;
+    public Text S_text;
+
+    // text setzt sich zusammen aus health + / + maxHealth
 
     void Start()
     {
-        
+
     }
 
 
